@@ -1,5 +1,5 @@
 package src.characters;
 
-interface Restless {
+interface Inept {
     void accidentalAction();
 }
