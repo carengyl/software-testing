@@ -2,6 +2,8 @@ package src.characters;
 
 import java.io.InvalidClassException;
 
+import src.actions.Action;
+import src.locations.Interactable;
 import src.locations.Place;
 
 public abstract class Character {
@@ -19,8 +21,9 @@ public abstract class Character {
         System.out.println(name + ": " + phrase);
     }
 
-    public void interact() {
-        
+    public void interact(Interactable someObject) {
+        someObject.beInteracted();
+        System.out.println(name + " interacts with " + someObject.getClass().getName());
     }
 
     public void setState(State newState) {
@@ -44,4 +47,6 @@ public abstract class Character {
             System.out.println(this.name + " goes to " + newPlace.getClass().getName());
         }
     }
+
+    public abstract void react(Action action);
 }
