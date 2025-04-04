@@ -1,7 +1,7 @@
-package src.main.java.domain.patterns.facade;
+package domain.patterns.facade;
 
-import src.main.java.domain.characters.ZaphodBeeblebrox;
-import src.main.java.domain.ship.Spaceship;
+import domain.characters.ZaphodBeeblebrox;
+import domain.ship.Spaceship;
 
 public class SpaceshipControlFacade {
     private final ZaphodBeeblebrox zaphod;

@@ -1,4 +1,4 @@
-package src.main.java.domain.characters.traits;
+package domain.characters.traits;
 
 public class ImpulsivenessTrait implements Trait {
     private boolean active = true;

@@ -1,6 +1,6 @@
-package src.main.java.domain.characters;
+package domain.characters;
 
-import src.main.java.domain.patterns.observer.ShipStatusListener;
+import domain.patterns.observer.ShipStatusListener;
 
 public class Trillian implements ShipStatusListener {
     @Override

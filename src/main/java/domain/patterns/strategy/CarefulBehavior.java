@@ -1,4 +1,4 @@
-package src.main.java.domain.patterns.strategy;
+package domain.patterns.strategy;
 
 public class CarefulBehavior implements BehaviorStrategy {
     @Override

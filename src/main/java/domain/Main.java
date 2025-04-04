@@ -1,11 +1,11 @@
-package src.main.java.domain;
+package domain;
 
-import src.main.java.domain.characters.ZaphodBeeblebrox;
-import src.main.java.domain.characters.Trillian;
-import src.main.java.domain.characters.traits.*;
-import src.main.java.domain.ship.Spaceship;
-import src.main.java.domain.patterns.strategy.RecklessBehavior;
-import src.main.java.domain.patterns.facade.SpaceshipControlFacade;
+import domain.characters.ZaphodBeeblebrox;
+import domain.characters.Trillian;
+import domain.characters.traits.*;
+import domain.ship.Spaceship;
+import domain.patterns.strategy.RecklessBehavior;
+import domain.patterns.facade.SpaceshipControlFacade;
 
 public class Main {
     public static void main(String[] args) {

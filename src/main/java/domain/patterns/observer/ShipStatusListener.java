@@ -1,4 +1,4 @@
-package src.main.java.domain.patterns.observer;
+package domain.patterns.observer;
 
 public interface ShipStatusListener {
     void onStatusChange(String status);

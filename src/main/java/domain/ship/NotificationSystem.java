@@ -1,4 +1,4 @@
-package src.main.java.domain.ship;
+package domain.ship;
 
 public class NotificationSystem {
     public void broadcast(String message) {

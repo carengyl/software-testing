@@ -1,8 +1,8 @@
-package src.main.java.domain.characters;
+package domain.characters;
 
-import src.main.java.domain.characters.traits.CharacterTraits;
-import src.main.java.domain.characters.traits.ImpulsivenessTrait;
-import src.main.java.domain.patterns.strategy.BehaviorStrategy;
+import domain.characters.traits.CharacterTraits;
+import domain.characters.traits.ImpulsivenessTrait;
+import domain.patterns.strategy.BehaviorStrategy;
 
 public class ZaphodBeeblebrox {
     private final BehaviorStrategy behavior;

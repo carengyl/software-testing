@@ -1,4 +1,4 @@
-package src.main.java.domain.characters.traits;
+package domain.characters.traits;
 
 import java.util.ArrayList;
 import java.util.List;

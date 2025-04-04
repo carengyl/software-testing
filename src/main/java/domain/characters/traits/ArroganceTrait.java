@@ -1,4 +1,4 @@
-package src.main.java.domain.characters.traits;
+package domain.characters.traits;
 
 public class ArroganceTrait implements Trait {
     private boolean active = true;

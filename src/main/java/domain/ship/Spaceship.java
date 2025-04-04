@@ -1,6 +1,6 @@
-package src.main.java.domain.ship;
+package domain.ship;
 
-import src.main.java.domain.patterns.observer.ShipStatusListener;
+import domain.patterns.observer.ShipStatusListener;
 import java.util.ArrayList;
 import java.util.List;
 
